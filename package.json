@@ -1,0 +1,30 @@
+{
+  "author": "adam j. sontag <ajpiano@ajpiano.com> (http://ajpiano.com)",
+  "name": "wintersmith-ordered-pages",
+  "description": "A content plugin for Wintersmith that allows for arbitrary ordering of content based on a single index file",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ajpiano/wintersmith-ordered-pages",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ajpiano/wintersmith-ordered-pages.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ajpiano/wintersmith-ordered-pages/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "async": ">= 0.0.1",
+    "js-yaml": "1.0.x",
+    "coffee-script": ">=1.2.x",
+    "lodash": ">=0.4.x",
+    "marked": "git://github.com/jnordberg/marked.git"
+  },
+  "devDependencies": {
+    "wintersmith": ">=1.0.0"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
